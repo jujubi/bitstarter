@@ -1,11 +1,11 @@
-var express = require('express');
+B77;10103;0cvar express = require('express');
 
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
  // response.send('Hello World2!');
 var fs=require('fs');
-fs.readFile('./Index.html', function read(err, data) {
+fs.readFile('index.html', function read(err, data) {
     if (err) {
         throw err;
     }
